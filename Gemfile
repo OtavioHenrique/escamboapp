@@ -18,6 +18,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'rails-i18n', '~> 5.0.0'
 
 group :development, :test do
+  gem 'rails-erd'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
